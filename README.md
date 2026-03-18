@@ -12,7 +12,7 @@ To display your screenshots in this section, create a folder named `screenshots`
 | :--- | :--- | :--- |
 | ![Login](./images/Chatflow_Login.png) | ![Chat](./images/ChatFlow.png.png) | ![Message](./images/ChatFlow_messaging.png) |
 
-> **Tip:** If you haven't uploaded images yet, you can also drag and drop your screenshots into a GitHub Issue to generate a URL, then replace the paths above with those links.
+
 
 ---
 
@@ -73,7 +73,16 @@ To display your screenshots in this section, create a folder named `screenshots`
     * Start the development server: `npm start`
 
 ---
+## Architecture Overview
 
+ChatFlow is a **real-time chat application** built with **React**, **Node.js**, **Express**, **MongoDB**, and **Socket.IO**.
+
+- **Event Handling:** Real-time message delivery, typing indicators, and presence updates via Socket.IO.  
+- **Persistence:** MongoDB stores messages and user metadata, supporting message deletion.  
+- **State Synchronization:** React state ensures smooth UI updates with live events.  
+- **User Presence:** Online/offline status updated in real-time.  
+- **Typing Indicators:** Shows when participants are composing messages.  
+- **Optimized Data Flow:** JSON payloads for efficient communication between frontend and backend.
 
 ---
 
