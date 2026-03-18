@@ -10,7 +10,7 @@ To display your screenshots in this section, create a folder named `screenshots`
 
 | Login Page | Chat Interface | Messaging View |
 | :--- | :--- | :--- |
-| ![Login](./images/ChatFlow_Login.png) | ![Chat](./images/ChatFlow.png) | ![Message](./images/ChatFlow_messaging.png) |
+| ![Login](./images/Chatflow_Login.png) | ![Chat](./images/ChatFlow.png.png) | ![Message](./images/ChatFlow_messaging.png) |
 
 > **Tip:** If you haven't uploaded images yet, you can also drag and drop your screenshots into a GitHub Issue to generate a URL, then replace the paths above with those links.
 
